@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+
+/*
+FOR HEEBO FONT
+font-family: 'Heebo', sans-serif;
+*/
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    position: static;
+    letter-spacing: 9px;
+}
+
+html {
+    background-image: url('/mountains.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    position: static;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    position: static;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    position: static;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(56, 46, 185);
+    color: white;
+}

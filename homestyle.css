@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap');
+
+/*
+FOR HEEBO FONT
+font-family: 'Heebo', sans-serif;
+*/
+
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    position: static;
+    letter-spacing: 9px;
+}
+
+html {
+    background-image: url('mountains.jpeg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-attachment: scroll;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+#middle {
+    margin-top: 20em;
+    margin-bottom: 0em;
+    background-color: black;
+    background-size: cover;
+    height: 500px;
+    top: unset;
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    position: static;
+}
+
+h2 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    position: static;
+    letter-spacing: 4px;
+}
+
+h3 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    position: static;
+}
+
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    position: static;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(56, 46, 185);
+    color: white;
+}
+
+button {
+    margin-top: 3em;
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    top: 50%;
+}
+
+button:hover {
+    background-color: white;
+    color: black;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+#site-footer {
+    height: 50px;
+    background: white;
+    position: relative;
+    width: 100%;
+    height: 20%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+a {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+}
+
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: blue;
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+    text-decoration: black;
+}
+
+.content {
+  padding: 16px;
+}
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+/* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+.sticky + .content {
+  padding-top: 60px;
+}
