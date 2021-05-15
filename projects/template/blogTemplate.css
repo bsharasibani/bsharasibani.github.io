@@ -9,10 +9,9 @@ h1 {
     font-family: 'Heebo', sans-serif;
     font-weight: bolder;
     color: black;
-    font-size: 60px;
+    font-size: 30px;
     text-align: center;
     position: static;
-    letter-spacing: 9px;
 }
 
 html {
@@ -23,25 +22,6 @@ html {
     background-attachment: scroll;
     scroll-behavior: smooth;
     overflow-y: scroll;
-}
-
-h2 {
-    font-family: 'Heebo', sans-serif;
-    font-weight: bolder;
-    color: black;
-    font-size: 60px;
-    text-align: center;
-    position: static;
-    letter-spacing: 4px;
-}
-
-h3 {
-    font-family: 'Heebo', sans-serif;
-    font-weight: bolder;
-    color: black;
-    font-size: 30px;
-    text-align: center;
-    position: static;
 }
 
 ::-webkit-scrollbar {

@@ -55,6 +55,17 @@ html {
     text-align: center;
 }
 
+#blogsTemplate {
+    margin-top: 20em;
+    margin-bottom: 0em;
+    background-color: white;
+    background-size: cover;
+    height: 500px;
+    top: unset;
+    color: black;
+    text-align: center;
+}
+
 p {
     font-family: 'Heebo', sans-serif;
     font-weight: bolder;

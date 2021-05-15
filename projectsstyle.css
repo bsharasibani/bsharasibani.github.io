@@ -5,6 +5,59 @@ FOR HEEBO FONT
 font-family: 'Heebo', sans-serif;
 */
 
+h1 {
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    position: static;
+}
+
+html {
+    background-attachment: scroll;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
+body {
+    text-align:center;
+    background:url(mountains.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+}
+
+table {
+    margin:0 auto;
+    width:300px; /* or whatever width you want */
+    font-style:italic;
+}
+
+html {
+    background-attachment: scroll;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+
+#blogsTemplate {
+    margin-top: 20em;
+    margin-bottom: 0em;
+    background-color: white;
+    background-size: cover;
+    height: 500px;
+    top: unset;
+    color: black;
+    text-align: center;
+}
+
 button {
     margin-top: 3em;
     background-color: white;
@@ -58,8 +111,7 @@ a:active {
     background-color: honeydew;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width:50%
-
+    width:25%
 }
   
   /* On mouse-over, add a deeper shadow */
@@ -72,4 +124,31 @@ a:active {
   /* Add some padding inside the card container */
 .container {
     padding: 2px 16px;
+}
+
+.topnav {
+    background-color: #ddd;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: right;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: bolder;
+    position: static;
+}
+
+.topnav a:hover {
+    background-color: gray;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: rgb(56, 46, 185);
+    color: white;
 }
